@@ -132,7 +132,7 @@ nav a {
 
 /* third page */
 	
-#third {
+#contact-stuff {
 	width: 100%;
 	height: 100vh;
 	min-height: auto;
@@ -284,6 +284,7 @@ nav a {
 		margin: auto;
 		padding: 5px 0;
 	}
+	
 	#thirdH {
 		font-size: 64px;
 	}
@@ -297,20 +298,20 @@ nav a {
 	}
 	
 	.contact {
-	box-sizing: border-box;
-	display: inline-block;
-	line-height: 300px;
-	width: 300px;
-	border-radius: 50%;
-	border: solid 1px black;
-	margin: 0 50px;
-	margin-bottom: 70px;
-	text-decoration: none;
-	font-weight: bold;
-	font-size: 36px;
-	background-color: rgb(189, 173, 150);
-	color: black;
-	opacity: 0.7;
+		box-sizing: border-box;
+		display: inline-block;
+		line-height: 300px;
+		width: 300px;
+		border-radius: 50%;
+		border: solid 1px black;
+		margin: 0 50px;
+		margin-bottom: 70px;
+		text-decoration: none;
+		font-weight: bold;
+		font-size: 36px;
+		background-color: rgb(189, 173, 150);
+		color: black;
+		opacity: 0.7;
 	}
 		
 	.fa {
