@@ -1,0 +1,319 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: "Open-sans", sans-serif;
+	text-align: center;
+}
+
+#navbar {
+	position: fixed;
+	width: 100%;
+	height: auto;
+	background-color: rgb(50, 46, 47);
+	text-align: center;
+	z-index: 2;
+	opacity: 0.95;
+}
+
+nav a {
+	float: right;
+	text-decoration: none;
+	color: white;
+	font-size: 1.4em;
+	padding: 16px 0;
+	margin-right: 70px;
+}
+
+/* first page */
+
+#welcome-section {
+	width: 100%;
+	height: 100vh;
+	background-image: url("fox.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+
+#me {
+	position: absolute;
+    top:  50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+	width: auto;
+	height: auto;
+	color: black;
+}
+
+#meH, #meP {
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+#meH {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+/* second page */
+
+#projects {
+	width: 100%;
+	min-height: 100vh;
+	background-color: rgb(189, 173, 150);
+	margin: 0;
+	padding: 0;
+}
+
+#projects a {
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+}
+
+#row1 {
+	display: flex;
+	position: relative;
+	top: 130px;
+	justify-content: space-around;
+	margin-left: 20vw;
+	margin-right: 20vw;
+}
+
+#row2 {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 180px; 
+	margin-left: 20vw;
+	margin-right: 20vw;
+	padding-bottom: 30px; 
+}
+
+.windiv img {
+	width: 100%;
+	height: 180px;
+}
+
+#window1, #window3 {
+	margin-right: 100px;
+}
+
+.project-title {
+	position: relative;
+	top: 100px;
+	font-weight: bold;
+	color: white;
+	margin-top: 0;
+	padding-top: 0;
+	}
+	
+.windiv {
+	width: 280px;
+	height: 180px;
+	background-color: white;
+	border-top: solid 1px black;
+	border-left: solid 1px black;
+	border-right: solid 1px black;
+	margin: 0;
+	padding: 0;
+}
+	
+.winp {
+		width: 280px;
+		line-height: auto;
+		background: rgb(146, 58, 52);
+		border: 1px solid black;
+		margin: 0;
+		padding: 5px 0;
+}
+
+/* third page */
+	
+#third {
+	width: 100%;
+	height: 100vh;
+	min-height: auto;
+	background-color: rgb(146, 58, 52);
+	margin: 0;
+	padding: 0;
+}
+
+#lets {
+	position: relative;
+	top: 125px;
+}
+
+#thirdH, #thirdP {
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+#thirdH {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+#contacts {
+	width: auto;
+	margin: auto;
+	position: relative;
+	top: 45vh;
+	display: inline-block;
+	margin: auto;
+	background-color: rgb(146, 58, 52);
+}
+
+.contact {
+	box-sizing: border-box;
+	display: inline-block;
+	line-height: 160px;
+	width: 160px;
+	border-radius: 50%;
+	border: solid 1px black;
+	margin: 0 50px;
+	margin-bottom: 30px;
+	text-decoration: none;
+	font-weight: bold;
+	background-color: rgb(189, 173, 150);
+	color: black;
+	opacity: 0.7;
+}
+
+@media only screen and (max-width: 768px) {
+	#row1, #row2 {
+		display: block;
+		width: 280px;
+		margin: auto;
+	}
+	#row2 {
+		margin-top: 130px;
+	}
+	
+	.project-tile {
+		margin: auto;
+		padding-top: 30px;
+	}
+
+	nav a {
+		display: inline;
+		margin-right: 40px; 
+		font-size: 1em;
+		font-weight: bold;
+	}
+}
+
+@media only screen and (max-device-width: 768px) {
+	
+	nav a {
+		font-size: 3em;
+	}
+	
+	#meH {
+	font-size: 64px;
+	font-weight: bold;
+	}
+	
+	#meP {
+	font-size: 48px;
+	font-weight: bold;
+	}
+	
+	#welcome-section {
+		background: url("forest.jpg");
+		background-size: cover;
+	}
+	
+	.project-title {
+		font-size: 64px;
+		color: rgb(50, 46, 47);
+	}
+	
+	#projects {
+		width: 100%;
+		background-color: lightGray;
+		
+	}
+	#row1 {
+		position: static;
+		display: block;
+		margin: auto;
+		margin-top: 180px;
+	}
+	
+	#window1, #window2, #window3, #window4 {
+		display: inline-block;
+		width: 80%;
+		margin: 0 0 0 0;
+		padding: 0 0 0 0;
+		margin: auto;
+		margin-bottom: 30px;
+	}
+
+	#row2 {
+		position: static;
+		display: block;
+		margin: auto;
+	}
+
+	.windiv img {
+	width: 100%;
+	height: 380px;
+}
+		
+	.windiv {
+		width: 80%;
+		height: 70%;
+		background-color: white;
+		border-top: solid 1px black;
+		border-left: solid 1px black;
+		border-right: solid 1px black;
+		margin: auto;
+		padding: 0;
+	}
+	
+	.winp {
+		width: 80%;
+		font-size: 25px;
+		line-height: auto;
+		background: rgb(146, 58, 52);
+		border: 1px solid black;
+		margin: auto;
+		padding: 5px 0;
+	}
+	#thirdH {
+		font-size: 64px;
+	}
+	
+	#thirdP {
+		font-size: 48px;
+	}
+	
+	#contacts {
+		top: 35vw;
+	}
+	
+	.contact {
+	box-sizing: border-box;
+	display: inline-block;
+	line-height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	border: solid 1px black;
+	margin: 0 50px;
+	margin-bottom: 70px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 36px;
+	background-color: rgb(189, 173, 150);
+	color: black;
+	opacity: 0.7;
+	}
+		
+	.fa {
+		font-size: 36px !important;
+	}
+}
