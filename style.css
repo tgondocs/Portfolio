@@ -152,7 +152,7 @@ nav a {
 	color: white;
 }
 
-#thirdH {
+.h-size {
 	font-size: 2em;
 	font-weight: bold;
 }
@@ -291,7 +291,7 @@ nav a {
 		color: black;
 	}
 	
-	#thirdH {
+	.h-size {
 		font-size: 64px;
 	}
 	
